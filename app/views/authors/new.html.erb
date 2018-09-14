@@ -1,5 +1,5 @@
 <h2>Create an Author</h2>
-<%= form_tag("/authors")
+<%= form_tag("/authors") do %>
   <% if @post.errors.any? %>
     <div id="error explantion">
       <h2>There were some errors:</h2>
